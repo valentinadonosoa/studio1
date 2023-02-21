@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html{
+    background-color: #7C7563;
+}
+
+.main{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 2em;
+}
+
+.header{
+    font-family: 'Lato';
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-family: 'Lato';
+    font-style: light;
+    color: white;
+    text-align: center;
+}
+
+.map{
+    position: relative;
+    padding-top: 50px;
+    z-index: 0;
+}
+
+.pinpoint1{
+    position: absolute;
+    top: 69.5%;
+    left: 41%;
+    width: 2%;
+    z-index: 1;
+}
+
+.pinpoint1:hover{
+    top: 67.5%;
+}
+
+.pinpoint2{
+    position: absolute;
+    top: 75.4%;
+    left: 45.3%;
+    width: 2%;
+    z-index: 1;
+}
+
+.pinpoint2:hover{
+    top: 73.4%;
+}
+
+.pinpoint3{
+    position: absolute;
+    top: 85.3%;
+    left: 53.15%;
+    width: 2%;
+    z-index: 1;
+}
+
+.pinpoint3:hover{
+    top: 83.3%;
+}
+
+.pinpoint4{
+    position: absolute;
+    top: 102%;
+    left: 56.4%;
+    width: 2%;
+    z-index: 1;
+}
+
+.pinpoint4:hover{
+    top: 100%;
+}
+
+.pinpoint5{
+    position: absolute;
+    top: 117.5%;
+    left: 53.25%;
+    width: 2%;
+    z-index: 1;
+}
+
+.pinpoint5:hover{
+    top: 115.5%;
+}
